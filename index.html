@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>My Portfolio | Siddhant Naik</title>
+  <meta name="description" content="A personal portfolio showcasing my work, projects, and certifications.">
+  <meta property="og:title" content="My Website">
+  <meta property="og:description" content="Explore my work and experiences.">
+  <meta property="og:image" content="1000005183.jpg">
+  <meta property="og:type" content="website">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">My Website</div>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        <li class="nav-item"><button id="toggle-theme" class="theme-btn" aria-label="Toggle theme">☀️</button></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-header">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="hero-subtitle">Explore my work, projects, and professional journey</p>
+      
+      <!-- Dashboard Stats -->
+      <div class="dashboard-stats">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i data-feather="award"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i data-feather="folder"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Projects</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i data-feather="trending-up"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Years Learning</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i data-feather="users"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number">100</span>
+            <span class="stat-label">+ Skills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <section class="portfolio-intro">
+      <div class="intro-card">
+        <h2><i data-feather="briefcase"></i>My Portfolio Journey</h2>
+        <p>Welcome to my professional showcase! Here you'll find a comprehensive collection of my certifications, projects, and achievements in the fields of cloud computing, data analytics, cybersecurity, and web development.</p>
+      </div>
+    </section>
+
+    <section class="certificates-section">
+      <h2 class="section-title"><i data-feather="award"></i>Professional Certifications</h2>
+      
+      <div class="certificate-grid">
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="project1.jpg" alt="AWS APAC Solutions Architecture Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Cloud</div>
+          </div>
+          <div class="certificate-content">
+            <h3>AWS APAC Solutions Architecture</h3>
+            <ul class="certificate-highlights">
+              <li>Designed scalable AWS hosting architecture using Elastic Beanstalk</li>
+              <li>Evaluated cost implications and optimized infrastructure for performance</li>
+              <li>Effectively communicated technical solutions to client-facing audience</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="certificate1.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="certificate1.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="project 2.png" alt="Deloitte Data Analytics Job Simulation Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Analytics</div>
+          </div>
+          <div class="certificate-content">
+            <h3>Deloitte Australia Data Analytics Job Simulation</h3>
+            <ul class="certificate-highlights">
+              <li>Completed Deloitte job simulation focusing on data analysis and forensic technology</li>
+              <li>Created interactive data dashboard using Tableau</li>
+              <li>Utilized Excel to classify data and draw meaningful business conclusions</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="certificate2.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="certificate2.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="project3.jpg" alt="Tata Cybersecurity Simulation Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Security</div>
+          </div>
+          <div class="certificate-content">
+            <h3>Tata Cybersecurity Simulation</h3>
+            <ul class="certificate-highlights">
+              <li>Completed job simulation focused on Identity and Access Management (IAM)</li>
+              <li>Gained expertise in cybersecurity best practices and business alignment</li>
+              <li>Created documentation and presentations on security implementation strategies</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="certificate3.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="certificate3.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="WordpressCertificate.jpg" alt="WordPress Website Development Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Web Dev</div>
+          </div>
+          <div class="certificate-content">
+            <h3>Create A Website Using WordPress</h3>
+            <ul class="certificate-highlights">
+              <li>Integrated plugins to enhance website functionality</li>
+              <li>Achieved 20% improvement in website loading speed through optimization</li>
+              <li>Conducted regular maintenance and updates to ensure website stability</li>
+            </ul>
+            <div class="verification-link">
+              <strong>Verification:</strong> 
+              <a href="https://coursera.org/verify/Q6AWKLZQKF6D" target="_blank">Coursera Link</a>
+            </div>
+            <div class="certificate-actions">
+              <a href="WordpressCertificate.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="WordpressCertificate.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="Certificate4.jpg" alt="iOS Development Course Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Mobile</div>
+          </div>
+          <div class="certificate-content">
+            <h3>iOS Development for Beginners</h3>
+            <ul class="certificate-highlights">
+              <li>Completed 4-week course on iOS Development for Beginners</li>
+              <li>Mastered Swift & App Building with GeeksforGeeks</li>
+              <li>Certified by Mr. Sandeep Jain, Founder & CEO, GeeksforGeeks</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="IOS Development Certificate.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="IOS Development Certificate.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="Outskill certificate.png" alt="Generative AI Mastermind Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">AI/ML</div>
+          </div>
+          <div class="certificate-content">
+            <h3>Generative AI Mastermind</h3>
+            <ul class="certificate-highlights">
+              <li>Successfully completed Generative AI Mastermind course from Outskill</li>
+              <li>Certificate presented by Vaibhav Sisinty, Founder of Outskill</li>
+              <li>Gained foundational knowledge in generative artificial intelligence</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="Outskill certificate.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="Outskill certificate.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="NISM certificate.jpg" alt="SEBI Investor Awareness Test Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Finance</div>
+          </div>
+          <div class="certificate-content">
+            <h3>SEBI Investor Awareness Test</h3>
+            <div class="certificate-details">
+              <p><strong>Name:</strong> Siddhant Satish Naik</p>
+              <p><strong>Date:</strong> August 28, 2025</p>
+              <p><strong>Enrollment:</strong> NISM20250000246056</p>
+            </div>
+            <ul class="certificate-highlights">
+              <li>Successfully completed SEBI Investor Awareness Test by NISM</li>
+              <li>National Institute of Securities Markets certification</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="NISM certificate.pdf" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="NISM certificate.pdf" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <div class="certificate-image-container">
+            <img src="Certificate5.jpg" alt="Discovery School Super League Certificate" class="certificate-img" loading="lazy">
+            <div class="certificate-badge">Academic</div>
+          </div>
+          <div class="certificate-content">
+            <h3>Discovery School Super League 2020-21</h3>
+            <ul class="certificate-highlights">
+              <li>Participated in nationwide school-level Science and Math quiz</li>
+              <li>Competition organized by Discovery Channel & BYJU'S</li>
+              <li>Represented Matoshri Rakhmabai Gaikwad Vidyalaya Kalyan</li>
+              <li>Awarded Certificate of Participation for 2020-21 edition</li>
+            </ul>
+            <div class="certificate-actions">
+              <a href="BYJUS.pptx" target="_blank" class="certificate-btn primary">
+                <i data-feather="external-link"></i>
+                Open Certificate
+              </a>
+              <a href="BYJUS.pptx" download class="certificate-btn secondary">
+                <i data-feather="download"></i>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-card">
+        <h2><i data-feather="rocket"></i>Ready to Collaborate?</h2>
+        <p>I'm always excited to work on new projects and explore innovative solutions. Let's connect and discuss how we can work together!</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="cta-btn primary">
+            <i data-feather="mail"></i>
+            Get In Touch
+          </a>
+          <a href="resume.html" class="cta-btn secondary">
+            <i data-feather="user"></i>
+            View Resume
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/Siddhantnaik909" target="_blank" title="GitHub"><i data-feather="github"></i></a>
+        <a href="https://www.linkedin.com/in/siddhant-naik-349170333" target="_blank" title="LinkedIn"><i data-feather="linkedin"></i></a>
+        <a href="https://t.me/Hindimarathimovies909" target="_blank" title="Telegram"><i data-feather="send"></i></a>
+        <a href="mailto:siddhantnaik909@gmail.com" title="Mail"><i data-feather="mail"></i></a>
+      </div>
+      <p>© 2025 Siddhant Naik | Mumbai, Maharashtra, India</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

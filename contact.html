@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Siddhant Naik</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">My Website</div>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+        <li class="nav-item"><button id="toggle-theme" class="theme-btn" aria-label="Toggle theme">☀️</button></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-container">
+    <section class="contact-section">
+      <div class="contact-header">
+        <h1><i data-feather="mail"></i>Get In Touch</h1>
+        <p class="contact-subtitle">Let's discuss your project ideas and bring them to life</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info-card">
+          <h2><i data-feather="user"></i>Contact Information</h2>
+          <div class="info-item">
+            <i data-feather="user-check"></i>
+            <div>
+              <h3>Siddhant Satish Naik</h3>
+              <p>IT Support & Cybersecurity Enthusiast</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i data-feather="map-pin"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Nala Sopara, Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i data-feather="mail"></i>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:siddhantnaik909@gmail.com">siddhantnaik909@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i data-feather="phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+919833866486">+91 98338 66486</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i data-feather="clock"></i>
+            <div>
+              <h3>Available</h3>
+              <p>Monday - Saturday, 10:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h2><i data-feather="send"></i>Send Message</h2>
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" class="form-input" name="first_name" placeholder="First Name" required>
+                <span class="form-line"></span>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-input" name="last_name" placeholder="Last Name" required>
+                <span class="form-line"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" name="user_email" placeholder="Your Email Address" required>
+              <span class="form-line"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-input" name="subject" placeholder="Subject / Project Type" required>
+              <span class="form-line"></span>
+            </div>
+            <div class="form-group">
+              <textarea class="form-input" name="message" placeholder="Tell me about your project or inquiry..." rows="5" required></textarea>
+              <span class="form-line"></span>
+            </div>
+            <button type="submit" class="submit-btn">
+              <i data-feather="send"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="social-section">
+        <h3>Connect With Me</h3>
+        <div class="social-links">
+          <a href="https://github.com/Siddhantnaik909" target="_blank" title="GitHub" class="social-link">
+            <i data-feather="github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/siddhant-naik-349170333" target="_blank" title="LinkedIn" class="social-link">
+            <i data-feather="linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://wa.me/919833866486" target="_blank" title="WhatsApp" class="social-link">
+            <i data-feather="message-circle"></i>
+            <span>WhatsApp</span>
+          </a>
+          <a href="https://t.me/Hindimarathimovies909" target="_blank" title="Telegram" class="social-link">
+            <i data-feather="send"></i>
+            <span>Telegram</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 Siddhant Naik | Mumbai, Maharashtra, India</p>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
